@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover,
+a:active {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.navigation-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li a {
+  margin-left: 15px;
+
+  &.active {
+    text-decoration: underline;
+  }
+}
+
+li + li:before {
+  content: "|";
+}

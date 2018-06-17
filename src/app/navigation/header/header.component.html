@@ -1,0 +1,26 @@
+<mat-toolbar color="primary">
+  <div fxHide.gt-xs>
+    <button mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+  <div>
+    <a routerLink="/" fxLayoutAlign="center center" fxLayoutGap="10px" title="Go to Home">
+      <!--<img src="../../assets/img/logo.png" height="120"/>-->
+      <h2>Multi CSS View</h2>
+    </a>
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
+    <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+      <li>
+        <a routerLink="/sass" routerLinkActive="active">SASS</a>
+      </li>
+      <li>
+        <a routerLink="/bootstrap" routerLinkActive="active">Bootstrap 4</a>
+      </li>
+      <li>
+        <a routerLink="/material" routerLinkActive="active">Angular Material</a>
+      </li>
+    </ul>
+  </div>
+</mat-toolbar>
