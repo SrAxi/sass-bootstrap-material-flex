@@ -1,5 +1,16 @@
 # SassBootstrapMaterial
 
+The goal of this project is to reproduce the same content with 3 different CSS tools: [SASS](https://sass-lang.com/), [NG Bootstrap (Bootstrap 4)](https://ng-bootstrap.github.io/#/home) and [Angular Material](https://material.angular.io/).
+
+Because Angular Material doesn't have a decent grid system, I had to pair it with [Angular flex-layout](https://github.com/angular/flex-layout).
+
+The main challenges in this project are:
+- To combine different framework/libraries in the same application
+- To achieve an almost identical result with different tools
+- Host this content in an Angular 6 application
+- Do this in a short time (max 20h)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
