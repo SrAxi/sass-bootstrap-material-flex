@@ -10,6 +10,8 @@ The main challenges in this project are:
 - Host this content in an Angular 6 application
 - Do this in a short time (max 20h)
 
+Check out the deployed app [here](https://sass-bootstrap-material-flex.firebaseapp.com)!
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
